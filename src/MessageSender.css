@@ -1,0 +1,62 @@
+.messagesender{
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+    width: 100%;
+}
+
+.messagesender_top{
+    display: flex;
+    border-bottom: 1px solid #eff2f5;
+    padding-bottom: 15px;
+    padding: 15px;
+}
+
+.messagesender_top > form {
+    flex: 1;
+    display: flex;
+}
+
+.messagesender_top > form > input {
+    outline-width: 0;
+    border: none;
+    padding: 5px 20px;
+    margin: 0 10px;
+    border-radius: 999pz;
+    background-color: #eff2f5;
+}
+
+.messagesender_top > form > button {
+    display: none;
+}
+
+.messagesender_input{
+    flex: 1;
+}
+
+.messagesender_bottom{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.messagesender_option{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    color: grey;
+    margin: 5px;
+}
+
+.messagesender_option>h3{
+    font-size: medium;
+    margin-left: 10px;
+}
+
+.messagesender_option:hover{
+    background-color: black;
+    border-radius: 20px;
+}
+
